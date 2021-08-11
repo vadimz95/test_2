@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin: 0 20px;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 200px;
+}
+
+.time-line {
+    margin-left: 10px;
+    border-top: 1px solid black;
+    max-width: 200px;
+    height: 60px;
+    display: flex;
+}
+
+.time {
+    width: 30px;
+}
+
+.event {
+    display: flex;
+    position: absolute;
+    background: #E2ECF5;
+    border-left: #6E9ECF solid 4px;
+    padding-left: 5px;
+    margin-left: 10px;
+}
